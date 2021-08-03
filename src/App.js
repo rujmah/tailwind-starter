@@ -1,4 +1,3 @@
-import "./App.css";
 import Card from "./components/Card";
 import Case from "./components/Case";
 import Layout from "./components/Layout";

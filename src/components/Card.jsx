@@ -1,4 +1,5 @@
 import React from "react";
+import { BeakerIcon } from "@heroicons/react/solid";
 import logo from "../logo.svg";
 
 const Card = () => {
@@ -14,7 +15,10 @@ const Card = () => {
         <img src={logo} alt="logo" className="h-12 w-12" />
       </div>
       <div>
-        <div class=" text-xl font-medium text-blue-500 ">To! Sushi</div>
+        <div className=" text-xl font-medium text-blue-500 ">
+          <BeakerIcon className="h-5 w-5 text-blue-500" />
+          <p>To Sushi!</p>{" "}
+        </div>
         <p className="text-gray-500">Another one!</p>
       </div>
     </div>
